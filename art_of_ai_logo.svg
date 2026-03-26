@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <defs>
+    <clipPath id="roundedClip">
+      <rect width="1000" height="1000" rx="120" ry="120"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1000" rx="120" ry="120" fill="#1C1C1A"/>
+
+  <!-- Subtle top-left dot cluster — taste/curation motif -->
+  <circle cx="118" cy="118" r="6" fill="#7A9E8A" opacity="0.9"/>
+  <circle cx="148" cy="118" r="6" fill="#7A9E8A" opacity="0.5"/>
+  <circle cx="178" cy="118" r="6" fill="#7A9E8A" opacity="0.25"/>
+
+  <!-- Sage green accent rule -->
+  <rect x="118" y="144" width="80" height="2.5" fill="#7A9E8A" rx="1.5"/>
+
+  <!-- Main wordmark: ART OF AI -->
+  <text
+    x="500"
+    y="498"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="148"
+    font-weight="300"
+    fill="#FAFAF7"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="18"
+  >ART OF AI</text>
+
+  <!-- Sage divider line under wordmark -->
+  <rect x="118" y="562" width="764" height="1.5" fill="#7A9E8A" opacity="0.4" rx="1"/>
+
+  <!-- Tagline -->
+  <text
+    x="500"
+    y="618"
+    font-family="Georgia, serif"
+    font-size="28"
+    font-weight="400"
+    fill="#9A9A94"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="3"
+    font-style="italic"
+  >Conversations with the Tastemakers of AI</text>
+
+  <!-- Bottom-right micro detail — mirrored dots -->
+  <circle cx="882" cy="882" r="6" fill="#7A9E8A" opacity="0.25"/>
+  <circle cx="852" cy="882" r="6" fill="#7A9E8A" opacity="0.5"/>
+  <circle cx="822" cy="882" r="6" fill="#7A9E8A" opacity="0.9"/>
+</svg>
